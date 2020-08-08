@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  pading: 0;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.menu ul{
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100%;
+  font-size:18px;
+  display: inline-flex;
+  margin: 0px;
+  background-color:black;
+
+
+}
+.menu ul li{
+
+  list-style: none;
+  margin:0 20px;
+  color: #b2b1b1;
+  cursor: pointer;
+}
+.menu ul li:hover{
+  color: #FF4700;
+  transition: ease 1s;
+}
+.active{
+  color: blue !important*;
+}
+.signup-btn{
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color:orange;
+}
+/*.parallax {
+  background-image: url("GT-Sport.jpg");
+  max-width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.parallax2{
+  background-image: url("MJ.jpg");
+  /* background-position: 50% 100px !important; */
+  /* height: 350px; */
+  /* background-size: 100% auto; */
+ /* max-width: 100%; */
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  background-color: inherit;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+form {
+  color: black;
+  display: inline-block; */
+  position: relative;
+  width: 400px;
+  bottom: -115px;
+  justify-content: center;
+
+}
+form.align1 {
+  float:right;
+  /* display: inline-block; */
+}
+
+label {
+  display: block;
+  font-size: 15px;
+  width: 300px;
+  height: 15px;
+  border: none;
+  /* border-color: white; */
+  color: white;
+
+}
+input{
+  width:40%;
+  /* line-height: 1.5em; */
+
+}
+
+.button {
+  background-color:#FF4700;
+  border: none;
+  color: black;
+  position: relative;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  white-space: nowrap;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+/* line-height: 1.5em; */
+
+}
+.button:hover{
+  color:white;
+  opacity: 0.4;
+  background-color: #FF4700;
+  transition: color 1s ease 0s;
+}
+
+
+footer{
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 2.5rem;
+  position: relative;
+  text-align: center;
+  bottom: -210;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+.form-item.field.email, .form-item.field.text {
+ display: inline-block;
+ min-width: 48.8%;
+}
+
+.form-item.field.email {
+ margin-right: 1.4%;
+}
